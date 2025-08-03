@@ -39,7 +39,7 @@ const HeroSection = () => {
           
           {/* Photo d'Abdelmonem */}
            <div className="flex justify-center lg:justify-end order-1 lg:order-2">
-             <div className="relative w-96 h-96 md:w-[28rem] md:h-[28rem] lg:w-[32rem] lg:h-[32rem] rounded-2xl overflow-hidden border-4 border-white shadow-2xl">
+             <div className="relative w-72 h-72 sm:w-80 sm:h-80 md:w-[28rem] md:h-[28rem] lg:w-[32rem] lg:h-[32rem] rounded-2xl overflow-hidden border-4 border-white shadow-2xl">
                <Image
                  src="/abdelmonem.webp"
                  alt="Portrait professionnel d'Abdelmonem - KAMRAY Coaching & Consulting"

@@ -113,7 +113,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body
-        className={`${inter.variable} ${playfairDisplay.variable} font-sans antialiased`}
+        className={`${inter.variable} ${playfairDisplay.variable} font-sans antialiased overflow-x-hidden`}
       >
         <StructuredData />
         <Header />

@@ -77,7 +77,7 @@ const ContactSection = () => {
               Contact Rapide
             </h3>
             <form className="bg-card p-6 rounded-lg border border-kamray-gold/20 space-y-4">
-              <div className="grid md:grid-cols-2 gap-4">
+              <div className="grid sm:grid-cols-2 gap-4">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium mb-2">Nom complet</label>
                   <input 

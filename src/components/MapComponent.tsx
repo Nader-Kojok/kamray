@@ -101,7 +101,7 @@ const MapComponent = () => {
   return (
     <div className="space-y-4">
       {/* Sélecteur de bureau */}
-      <div className="flex space-x-2">
+      <div className="flex flex-wrap gap-2">
         {offices.map((office) => (
           <button
             key={office.id}
@@ -118,7 +118,7 @@ const MapComponent = () => {
       </div>
 
       {/* Carte */}
-      <div className="h-96 rounded-lg overflow-hidden border border-gray-200">
+      <div className="h-96 w-full rounded-lg overflow-hidden border border-gray-200">
         <Map
           center={[selectedOffice.lat, selectedOffice.lng]}
           zoom={13}
