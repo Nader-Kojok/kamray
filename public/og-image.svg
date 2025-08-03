@@ -1,0 +1,50 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="rgba(0,0,0,0.3)"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="1100" cy="100" r="80" fill="rgba(255,255,255,0.1)"/>
+  <circle cx="100" cy="530" r="60" fill="rgba(255,255,255,0.08)"/>
+  
+  <!-- Main content container -->
+  <rect x="60" y="60" width="1080" height="510" rx="20" fill="rgba(255,255,255,0.95)" filter="url(#shadow)"/>
+  
+  <!-- Logo placeholder (you can replace with actual logo) -->
+  <rect x="100" y="100" width="60" height="60" rx="8" fill="#1e40af"/>
+  <text x="130" y="140" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">K</text>
+  
+  <!-- Main title -->
+  <text x="200" y="140" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#1e40af">KAMRAY</text>
+  <text x="200" y="190" font-family="Arial, sans-serif" font-size="32" font-weight="300" fill="#64748b">Coaching &amp; Consulting</text>
+  
+  <!-- Subtitle -->
+  <text x="200" y="250" font-family="Arial, sans-serif" font-size="24" font-weight="600" fill="#1e40af">Dr. Abdelmonem Kaaniche</text>
+  <text x="200" y="285" font-family="Arial, sans-serif" font-size="18" fill="#64748b">Expert tuniso-africain en leadership</text>
+  <text x="200" y="315" font-family="Arial, sans-serif" font-size="18" fill="#64748b">et coaching stratégique</text>
+  
+  <!-- Key services -->
+  <text x="200" y="370" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#1e40af">Services :</text>
+  <text x="200" y="400" font-family="Arial, sans-serif" font-size="16" fill="#64748b">• Transformation personnelle et professionnelle</text>
+  <text x="200" y="425" font-family="Arial, sans-serif" font-size="16" fill="#64748b">• Leadership et coaching stratégique</text>
+  <text x="200" y="450" font-family="Arial, sans-serif" font-size="16" fill="#64748b">• Expertise spécialisée pour l'Afrique</text>
+  
+  <!-- Profile image placeholder -->
+  <circle cx="950" cy="315" r="120" fill="#e2e8f0" stroke="#1e40af" stroke-width="4"/>
+  <text x="950" y="325" font-family="Arial, sans-serif" font-size="16" fill="#64748b" text-anchor="middle">Photo</text>
+  <text x="950" y="345" font-family="Arial, sans-serif" font-size="16" fill="#64748b" text-anchor="middle">Dr. Kaaniche</text>
+  
+  <!-- Bottom accent -->
+  <rect x="100" y="520" width="1000" height="4" rx="2" fill="#1e40af"/>
+</svg>

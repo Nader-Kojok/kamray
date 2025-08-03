@@ -1,0 +1,33 @@
+{
+  "name": "KAMRAY Coaching & Consulting",
+  "short_name": "KAMRAY",
+  "description": "Expert tuniso-africain en coaching et consulting avec Dr. Abdelmonem Kaaniche",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1e40af",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/kamray_logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/kamray_logo.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/kamray_logo.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["business", "education", "productivity"],
+  "lang": "fr",
+  "scope": "/"
+}
